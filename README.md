@@ -2,6 +2,7 @@
 [Reference 1](https://learn.hashicorp.com/tutorials/terraform/gke)<br/>
 [Reference 2](https://registry.terraform.io/providers/hashicorp/google/latest/docs/guides/using_gke_with_terraform)<br/>
 [Reference 3](https://github.com/antonputra/tutorials/tree/main/lessons/069)<br>
+[Reference 4](https://docs.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-portal?tabs=azure-cli#code-try-0)<br/>
 Provision of kubernetes cluster in google cloud platform with terraform and runing Vote application and flask application<br>
 To configure gcloud sdk on Mac
 ``` 
