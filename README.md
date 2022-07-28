@@ -13,23 +13,16 @@ gcloud init
 ```
 gcloud auth application-default login
 ```
-Setup and Initialize Terraform 
-```
-git clone https://github.com/hashicorp/learn-terraform-provision-gke-cluster
-```
-```
-cd learn-terraform-provision-gke-cluster
-```
+# Setup and Initialize Terraform 
 Update terraform.tfvars file with your project_id, and region<br/>
 You can easily get your prooject_id by running<br>
 ```
 gcloud config get-value project
 ```
-# Start Provision with Terraform 
+Start Provision with Terraform 
 ```
 terraform init -upgrade
 ```
-In case of provider error just delete versions.tf file
 ```
 terraform apply
 ```
