@@ -55,7 +55,7 @@ Vote Application  -> http://EXTERNAL-IP
 Flask Application -> http://EXTERNAL-IP:60000
 ```
 You should see on browser something like <br>
-<img width="643" alt="Screenshot 2022-07-28 at 12 34 34" src="https://user-images.githubusercontent.com/43514418/181575243-a3fd6071-0534-4d17-944c-c7b564cf7bd5.png"><br/>
+<img width="576" alt="Screenshot 2022-07-28 at 17 24 19" src="https://user-images.githubusercontent.com/43514418/181576329-f9f037d4-7851-458a-8d99-61fa96e62aa9.png"><br/>
 <img width="425" alt="Screenshot 2022-07-28 at 12 34 00" src="https://user-images.githubusercontent.com/43514418/181575331-d7d92940-cf01-493f-a345-070756113b4e.png">
 # Clean up Resources 
 ```
