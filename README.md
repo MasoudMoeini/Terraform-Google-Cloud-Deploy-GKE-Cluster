@@ -13,6 +13,7 @@ gcloud init
 ```
 gcloud auth application-default login
 ```
+Some changes for future gcloud auth are [here](https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke) <br/>
 # Setup and Initialize Terraform 
 Update terraform.tfvars file with your project_id, and region<br/>
 You can easily get your prooject_id by running<br>
@@ -33,10 +34,8 @@ gcloud container clusters get-credentials $(terraform output -raw kubernetes_clu
 ```
 kubectl get all
 ```
-Now you are connected to GKE cluster and you should see something similar<br>
+Now you are connected to GKE cluster<br>
 Running Vote app and Flask app on kubernetes cluster<br/>
-Copy azure-vote.yaml and flask-app.yaml files into learn-terraform-provision-gke-cluster folder<br/>
-
 ```
 kubectl apply -f azure-vote.yaml            
 ```
@@ -45,6 +44,9 @@ kubectl apply -f flask-app.yaml
 ```
 ```
 Kubectl get all
+```
+```
+kubectl get svc
 ```
 Now you access both applications via External-IP addresses <br/>
 You should see on browser something like <br>
